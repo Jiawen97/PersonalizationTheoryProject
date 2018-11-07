@@ -1,7 +1,7 @@
 # Personalization Theory Project
 
 ## PROBLEM STATEMENT
-- For the purposes of taks presented in HW2, we regard ourselves as a movie recommendation and review website which prides itself with quality recommendations that it is able to generate for our its registered users. 
+- For the purposes of tasks presented in HW2, we regard ourselves as a movie recommendation and review website which prides itself with quality recommendations that it is able to generate for our its registered users. 
 - Our business model is built around selling our customers subscription and online purchase services to go and watch their favorite movies. 
 - Another part of our job is to engage users on our platform, so that they actively use it to review new movies. This will ensure that we continuously build a growing repository of data that is both rich and relevant with changing time.
 - One way of sending out these recommendations is through
