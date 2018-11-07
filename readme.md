@@ -29,7 +29,8 @@ To understand the impact of growing data and increasing sparsity, we divide our 
 - In Experiment 2: With more number of users and high sparisty, 
 MF - Small Sample ( 610 Users )  |  MF - Large Sample ( 10k Users )
 :-------------------------------:|:--------------------------------:
-![MF-Small]('img/MF-small.png')  |  ![MF-Large]('img/MF-large.png')
+
+![mf-small](https://user-images.githubusercontent.com/16842872/48116132-22366600-e233-11e8-80af-775a9b5a0205.png) |![mf-large](https://user-images.githubusercontent.com/16842872/48116010-bc49de80-e232-11e8-996b-73c7ed54f7ee.png)  
 
 #### Design Choices to consider: 
 In both of our models we have not included important features like movie titles, genres and celebrities starring in  them. We can also factor in context aware features like time and location. Take time for example, we would want to study how old are the ratings provided by a user before assigning them equal importance to a recent rating.
