@@ -8,9 +8,9 @@
 -- Display top recommeded movies on our website dashboard.
 -- Sending out emails to registered users with relevant recommednations to keep them engaged with our platform.
 - **TLDR**; 
--- **Maximize:** Online Purchases and Website Engagement  
--- **Avoid:** Becoming a Spammer. Focus on Quality Recommendations. 
--- The objective then is to identify what number of active users on platforms should be targeted and with what frequency.
+  **Maximize:** Online Purchases and Website Engagement  
+  **Avoid:** Becoming a Spammer. Focus on Quality Recommendations. 
+  The objective then is to identify what number of active users on platforms should be targeted and with what frequency.
 - In easy terms, this task can be be simply understood as making Top 5 recommendations to a carefully selected subset of registered users.
 
 ## DATASET:
