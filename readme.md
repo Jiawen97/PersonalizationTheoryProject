@@ -10,7 +10,8 @@
 
 ## DATASET:
 - We are using the Movielens Dataset. 
-- Talk about small and large. How we subsampled it.
+- There were 2 subsets that we created. The small dataset consisted of 610 users and 100 movies while the large dataset consisited of 10000 users and 100 movies. The movies were chosen first after which the dataset was filtered for the users. 
+- The movies were the same across both the datasets. 
 
 ### MODELS
 - Item Based Collaborative Filtering Model
@@ -20,7 +21,14 @@
 * Hyperparameters: Latent Space Dimensions- k; Other Paramters: learing rate - alpha; reg. paramter - beta.
 
 ## PARAMETER TUNING OF MODELS
-- How to choose alpha, beta and k.
+- To identify the number of neighbours for the Item Based Collaborative Filtering Model, we split the dataset into 3 different training and testing ratios. 
+-- A ratio of 50:50 of the training and test data
+-- A ratio of 80:20 of the training and test data
+-- A ratio of 90:10 of the training and test data
+- Once we had split the data into the training and testing dataset, we chose some different neighbourhood sizes 
+- Calculating the RMSE error across the 3 different splits for the different cneighbourhood choices, we chose the neighbourhood size k which achieved the minimum RMSE. 
+- To identify the number of latent factors for Matrix Factorisation with Regularisation, we again split the data into different training and testing ratios
+- The k denoting the number of Latent Space Dimensions was chosen based on the RMSE across the different training and testing splits
 
 ### RESULTS
 #### Impact of Sample Size: 
