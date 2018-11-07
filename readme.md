@@ -36,7 +36,7 @@
 - The k denoting the number of Latent Space Dimensions was chosen based on the RMSE across the different training and testing splits.
 
 To see the impact of neighbourhood sizes, we plotted the graph below:
-![item](img/Item-based.png) 
+![item](img/Item-CF.png) 
 
 Some key points seen were: 
 - When we use a single neighbour to predict the ratings, we get a really high root mean square error across the three different splits of training and testing data when the neighbourhood size is 1.
