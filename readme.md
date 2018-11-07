@@ -31,7 +31,7 @@
   - A ratio of 80:20 of the training and test data
   - A ratio of 90:10 of the training and test data
 - Once we had split the data into the training and testing dataset, we chose some different neighbourhood sizes 
-- Calculating the RMSE error across the 3 different splits for the different cneighbourhood choices, we chose the neighbourhood size k which achieved the minimum RMSE. 
+- Calculating the RMSE error across the 3 different splits for the different neighbourhood choices, we chose the neighbourhood size k which achieved the minimum RMSE. 
 - To identify the number of latent factors for Matrix Factorisation with Regularisation, we again split the data into different training and testing ratios.
 - The k denoting the number of Latent Space Dimensions was chosen based on the RMSE across the different training and testing splits.
 
@@ -52,7 +52,7 @@ To understand the impact of growing data and increasing sparsity, we divide our 
 
 | MF - Small Sample ( 610 Users )  |  MF - Large Sample ( 10k Users )|
 |----------------------------------|---------------------------------|
-|![mf-small](img/MF-small.png)     |![mf-large](img/MF-large.png)    |
+|![mf-small](img/MF-small.png)     |![mf-large](img/MF-Large.png)    |
 
 #### Impact of Changing Train-Test Ratio: 
 - We see the error goesdown in both the graphs as the training set size increase. This might indicate toawrds Overfitting. Thereby, justifying the use of a regularisation parameter.  
