@@ -40,6 +40,14 @@ To understand the impact of growing data and increasing sparsity, we divide our 
 |----------------------------------|---------------------------------|
 |![mf-small](https://user-images.githubusercontent.com/16842872/48116537-6a09bd00-e234-11e8-9074-e6dc4f84e3f5.png)|![mf-large](https://user-images.githubusercontent.com/16842872/48116509-552d2980-e234-11e8-9c89-6b7cbd29f3eb.png)
 
+To see the impact of neighbourhood sizes, we plotted the graph below
+![item](img/Item-based.png) 
+
+Some key points seen were 
+- When we use a single neighboour to predict the ratings, we get a really high root mean square error across the three different splits of training and testing data when the neighbourhood size is 1
+- The lowest root mean square error occurs at an 80:20 train to test split.
+- The error is higher at a 90:10 split compared to the 80:20 split. This indicates an overfitting on the training data and the model does not generalize well
+- When using 100 items, a neighbourhood size of 2 gives the best results. A simple model with 2 neighbours is able to explain better than a model which has more number of neighbours
 
 #### Design Choices to consider: 
 In both of our models we have not included important features like movie titles, genres and celebrities starring in  them. We can also factor in context aware features like time and location. Take time for example, we would want to study how old are the ratings provided by a user before assigning them equal importance to a recent rating.
