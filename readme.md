@@ -5,8 +5,8 @@
 - Our business model is built around selling our customers digital content (like Itunes) and recommending them to subscription services to go and watch their favorite movies. 
 - Another part of our job is to engage users on our platform, so that they actively use it to review new movies. It is extremely important to us as it will ensure that we continuously build a growing repository of data that is both rich ( both in qulaity and quantity ) and relevant with changing time.
 - Two way we supply these recommendations:
--- Display top recommeded movies on our website dashboard.
--- Sending out emails to registered users with relevant recommednations to keep them engaged with our platform.
+  - Display top recommeded movies on our website dashboard.
+  - Sending out emails to registered users with relevant recommednations to keep them engaged with our platform.
 - **TLDR**; 
   - **Maximize:** Online Purchases and Website Engagement  
   - **Avoid:** Becoming a Spammer. Focus on Quality Recommendations. 
@@ -27,15 +27,15 @@
 
 ### Model 1
 - To identify the number of neighbours for the Item Based Collaborative Filtering Model, we split the dataset into 3 different training and testing ratios. 
- - A ratio of 50:50 of the training and test data
- - A ratio of 80:20 of the training and test data
- - A ratio of 90:10 of the training and test data
+  - A ratio of 50:50 of the training and test data
+  - A ratio of 80:20 of the training and test data
+  - A ratio of 90:10 of the training and test data
 - Once we had split the data into the training and testing dataset, we chose some different neighbourhood sizes 
 - Calculating the RMSE error across the 3 different splits for the different cneighbourhood choices, we chose the neighbourhood size k which achieved the minimum RMSE. 
 - To identify the number of latent factors for Matrix Factorisation with Regularisation, we again split the data into different training and testing ratios.
 - The k denoting the number of Latent Space Dimensions was chosen based on the RMSE across the different training and testing splits.
 
-To see the impact of neighbourhood sizes, we plotted the graph below
+To see the impact of neighbourhood sizes, we plotted the graph below:
 ![item](img/Item-based.png) 
 
 Some key points seen were: 
@@ -55,13 +55,13 @@ To understand the impact of growing data and increasing sparsity, we divide our 
 |![mf-small](img/MF-small.png)     |![mf-large](img/MF-large.png)    |
 
 #### Impact of Changing Train-Test Ratio: 
-- 
+- We see the error goesdown in both the graphs as the training set size increase. This might indicate toawrds Overfitting. Thereby, justifying the use of a regularisation parameter.  
 
 
 ## FUTURE WORK AND COMMENTS ON RESULTS
 
 ### Generating Top 5 recommendations
-- Desgning
+- Designing
 - Checking
 
 #### Design Choices Considered:
