@@ -63,6 +63,7 @@ To understand the impact of growing data and increasing sparsity, we divide our 
 ### Generating Top 5 recommendations
 - Designing
 - Checking
+- Adding top-k recommendations with temporal attributes
 
 #### Design Choices Considered:
 - We have chosen to focus mainly on raw ratings for this task and no other source of information is used.
